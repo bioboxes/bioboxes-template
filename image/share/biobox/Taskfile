@@ -1,0 +1,1 @@
+default: -k 51 -o ${OUTPUT}/test -G 10000 

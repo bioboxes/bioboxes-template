@@ -46,7 +46,7 @@ apt-get install --yes --no-install-recommends ${ESSENTIAL_BUILD} ${RUNTIME}
 
 # Clean up any no longer needed apt-files
 apt-get clean
-rm -rf /var/lib/apt/lists/* $TMPDIR/*
+rm -rf /var/lib/apt/lists/* ${TMP}/*
 
 # Remove all no-longer-required build artefacts
 EXTENSIONS=("pyc" "c" "cc" "cpp" "h" "o")
